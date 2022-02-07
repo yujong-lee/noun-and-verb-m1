@@ -49,7 +49,7 @@ points. Running the following commands gives you an easy to find list of things
 you'd have to complete.
 
 ```
-npm run todos
+npm run todo
 ```
 
 To ensure that your future self thanks your current self, delete all TODO comments
