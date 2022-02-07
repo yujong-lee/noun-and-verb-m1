@@ -14,7 +14,7 @@ cp docs/examples/shopping-cart.prisma prisma/schema.prisma
 # you can edit this prisma schema to fit your needs, per the documentation
 ```
 
-For a simple example of the end result, [please see this]()
+For a simple example of the end result, [please see this](https://github.com/tufan-io/noun-and-verb-m1/commit/ffec7ffd5ed715fc8833e7902fb00ed7e0ca44a1#diff-ec7fec6905ef02f9e1fa34de781bf84e320232b5c3367743429ea49e4ed8ea38)
 
 ### 2. Setup dependencies
 ```
