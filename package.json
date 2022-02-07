@@ -7,6 +7,7 @@
     "bin"
   ],
   "bin": {
+    "noun_and_verb": "bin/noun-and-verb",
     "noun-and-verb": "bin/noun-and-verb"
   },
   "keywords": [],
