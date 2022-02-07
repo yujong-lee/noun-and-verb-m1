@@ -6,6 +6,9 @@
   "files": [
     "bin"
   ],
+  "bin": {
+    "noun-and-verb": "bin/noun-and-verb"
+  },
   "keywords": [],
   "author": "sramam",
   "license": "See License File",

@@ -10,7 +10,7 @@ This document focuses on the usage of `noun & verb`.
 ```
 mkdir -p my-app/prisma
 cd my-app
-cp docs/examples/shopping-cart.prisma prisma/schema.prisma
+curl -o prisma/schema.prisma https://raw.githubusercontent.com/tufan-io/noun-and-verb-m1/main/docs/examples/shopping-cart-nv.prisma
 # you can edit this prisma schema to fit your needs, per the documentation
 ```
 
@@ -25,6 +25,7 @@ npm install prisma github:tufan-io/noun-and-verb-m1 --save-dev
 ### 3. Initialize a git repo
 ```
 git init
+echo node_modules > .gitignore
 git add .
 ```
 
