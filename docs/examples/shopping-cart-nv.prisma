@@ -10,19 +10,35 @@ generator client {
   provider = "prisma-client-js"
 }
 
+generator noun_and_verb {
+  provider = "noun_and_verb"
+}
+
+/// @seed
 model User {
+  /// @createOnly
+  /// @readOnly
   id        String   @id @default(cuid())
+  /// @mock faker.name.firstName
   name      String
+  /// @scalar Email
   email     String
+  /// This is a password
+  /// @writeOnly
   password  String
+  /// @readOnly
   createdAt DateTime @default(now())
+  /// @readOnly
   updatedAt DateTime @default(now())
   cart      Cart?
 }
 
 model Cart {
+  /// @readOnly
   id        String    @id @default(cuid())
+  /// @readOnly
   createdAt DateTime  @default(now())
+  /// @readOnly
   updatedAt DateTime  @default(now())
   user      User      @relation(fields: [userId], references: [id])
   userId    String    @unique
@@ -31,11 +47,14 @@ model Cart {
 }
 
 model Product {
+  /// @readOnly
   id        String   @id @default(cuid())
   name      String
   price     Int
   image     String
+  /// @readOnly
   createdAt DateTime @default(now())
+  /// @readOnly
   updatedAt DateTime @default(now())
   carts     Cart[]
 }

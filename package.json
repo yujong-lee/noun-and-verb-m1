@@ -1,0 +1,16 @@
+{
+  "name": "noun-and-verb",
+  "version": "0.0.1",
+  "description": "A batteries included GraphQL API generator for [prisma](https://www.prisma.io/) schema(e).",
+  "main": "index.js",
+  "files": [
+    "bin"
+  ],
+  "keywords": [],
+  "author": "sramam",
+  "license": "See License File",
+  "dependencies": {
+    "@prisma/generator-helper": "^3.9.1",
+    "prisma": "^3.9.1"
+  }
+}
