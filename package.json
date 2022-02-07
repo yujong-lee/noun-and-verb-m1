@@ -7,8 +7,8 @@
     "bin"
   ],
   "bin": {
-    "noun_and_verb": "bin/noun-and-verb",
-    "noun-and-verb": "bin/noun-and-verb"
+    "noun_and_verb": "index.js",
+    "noun-and-verb": "index.js"
   },
   "keywords": [],
   "author": "sramam",
